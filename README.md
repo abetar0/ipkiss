@@ -1,5 +1,5 @@
 # ipkiss
-[WIP]
+[WIP] file masking tool
 
 ## License
 MIT
