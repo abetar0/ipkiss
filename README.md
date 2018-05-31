@@ -1,10 +1,12 @@
 # ipkiss
 [WIP] file masking command
 
-this command is a implementation of following `awk` script.
+this command is a implementation of following bash function using`awk`.
 
 ```bash
-awk 'BEGIN {FS=",";OFS=","} {$1="***"} {$5="***"} 1' "$filename"
+function ipkiss() {
+    awk 'BEGIN {FS=",";OFS=","} {$1="***"} {$5="***"} 1' "$filename"
+}
 ```
 
 ## Author
